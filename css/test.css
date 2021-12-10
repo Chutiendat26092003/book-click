@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf8ee;
+}
+.book{
+    background-color: #e8dcc4;
+    border: 1px solid #e5dccc;
+    margin: 20px 100px;
+    border-radius: 20px ;
+}
+.book-list{
+    margin: 15px 10px 10px 15px;
+}
+.book-list li{
+    display: inline-block;
+    border: 1px solid #dac79d;
+    width: 270px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #dac79d;
+    opacity: 0.85;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+/*.book-list li:hover{*/
+/*    opacity: 1;*/
+/*    background-color: #b49041;*/
+/*}*/
+.active{
+    background-color: red !important;
+}
+.iamges{
+    margin: 20px 580px;
+}
+img{
+    border-radius: 5px;
+}
